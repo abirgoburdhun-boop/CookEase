@@ -456,7 +456,7 @@ class VoiceControlledCooking {
               console.log('Auto-restart failed:', e);
             }
           }
-        }, 1000);
+        }, 5000);
       }
     };
     
@@ -1109,4 +1109,5 @@ if (document.readyState === 'loading') {
 }
 
 // Make app accessible globally for debugging
+
 window.cookingApp = cookingApp;
